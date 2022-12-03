@@ -1,0 +1,32 @@
+
+.blog{
+    background-color: rgb(58, 56, 56);
+    padding: 60px 60px 60px 60px;
+
+}
+.Form_blog{
+    background-color: rgb(58, 56, 56);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:yellow
+}
+.card{
+    width: 1200px;
+justify-content: center;
+padding: 30px;
+text-align: center;
+display: flex;
+}
+.card-body{
+    padding: 30px 30px 30px 30px;
+}
+@media (max-width: 768px) {
+    .Blog_cards {
+        display: flex;
+        justify-content: center;
+        max-width: 600px;
+        width: 60%;
+        flex-direction: row;
+    }
+}
