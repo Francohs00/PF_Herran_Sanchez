@@ -9,24 +9,15 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    color:yellow
+    color:yellow;
+    padding: 20px;
 }
-.card{
+
+.cards_blog{
     width: 1200px;
-justify-content: center;
-padding: 30px;
-text-align: center;
-display: flex;
+    padding: 20px;
+    box-shadow: 1px 1px 5px gray;
+    background-color: white;
+    border-radius: 10px;
 }
-.card-body{
-    padding: 30px 30px 30px 30px;
-}
-@media (max-width: 768px) {
-    .Blog_cards {
-        display: flex;
-        justify-content: center;
-        max-width: 600px;
-        width: 60%;
-        flex-direction: row;
-    }
-}
+   

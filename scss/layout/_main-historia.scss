@@ -1,16 +1,36 @@
-.Div-historia-1{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px;
-    background-color: #000000;
-  }
-  .Div-historia-2{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px;
-    background-color: #000000;
-  }
+
   .titulo{
     background-color: rgb(53, 53, 53);
     color: white;
   }
+  .cont_historia{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(53, 52, 52);
+  }
+  .cards{
+    width: 250px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px gray;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .card_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .img_historia{
+    width: 200px;
+    box-shadow: 2px 2px 5px black;
+  }
+  .Text_card_historia{
+    
+  }
+  

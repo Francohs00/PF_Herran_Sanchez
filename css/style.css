@@ -163,41 +163,46 @@ header .nav-links li a:hover {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: yellow; }
+  color: yellow;
+  padding: 20px; }
 
-.card {
+.cards_blog {
   width: 1200px;
-  justify-content: center;
-  padding: 30px;
-  text-align: center;
-  display: flex; }
-
-.card-body {
-  padding: 30px 30px 30px 30px; }
-
-@media (max-width: 768px) {
-  .Blog_cards {
-    display: flex;
-    justify-content: center;
-    max-width: 600px;
-    width: 60%;
-    flex-direction: row; } }
-
-.Div-historia-1 {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 30px;
-  background-color: #000000; }
-
-.Div-historia-2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 30px;
-  background-color: #000000; }
+  padding: 20px;
+  box-shadow: 1px 1px 5px gray;
+  background-color: white;
+  border-radius: 10px; }
 
 .titulo {
   background-color: #353535;
   color: white; }
+
+.cont_historia {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #353434; }
+
+.cards {
+  width: 250px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px gray;
+  background-color: white;
+  border-radius: 10px; }
+
+.card_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; }
+
+.img_historia {
+  width: 200px;
+  box-shadow: 2px 2px 5px black; }
 
 .add {
   text-align: center;
@@ -250,3 +255,20 @@ header .nav-links li a:hover {
     background-position: center center;
     height: 500px;
     width: 400px; } }
+
+.card_button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background-color: #4676a3; }
+
+.enlace {
+  padding: 8px 20px;
+  color: white;
+  text-decoration: none; }
